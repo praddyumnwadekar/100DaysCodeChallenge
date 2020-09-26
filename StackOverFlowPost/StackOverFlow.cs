@@ -26,7 +26,6 @@ namespace StackOverFlowPost
             {
                 return this._vote;
             }
-
         }
     }
 }
