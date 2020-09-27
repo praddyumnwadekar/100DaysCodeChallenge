@@ -20,9 +20,7 @@ namespace Calculator
                 Console.WriteLine("1 - Addition\t2 - Subtraction\t3 - Multiplicationt\t4 - Division\nEnter Your Choice: ");
                 ch = int.Parse(Console.ReadLine());
 
-
-
-                switch (ch)
+               switch (ch)
                 {
                     case 1:
                         c.Addition(num1, num2);
@@ -39,11 +37,9 @@ namespace Calculator
                         c.Division(num1, num2, out result);
                         Console.WriteLine("The Multiplication of {0} and {1} is {2}", num1, num2, result);
                         break;
-
                     default:
                         break;
-
-                }
+              }
                 Console.WriteLine("Do You Want to do an Operation(Yes/No): ");
                 ans = Console.ReadLine().ToUpper(); 
             } while (ans == "YES");
@@ -51,30 +47,22 @@ namespace Calculator
 
         public void Addition(int a,int b)
         {
-            
             Console.WriteLine("The Addition of {0} and {1} is {2}",a,b,a + b);
         }
 
         public int Substraction(int a, int b)
         {
-           
             return(a - b);
         }
 
         public void Multiplication(int a,int b,out int rs)
         {
             rs = a * b;
-
         }
 
         public void Division(int a, int b, out int rs)
         {
             rs = a / b;
-
         }
-
-                
     }
-
-
 }
