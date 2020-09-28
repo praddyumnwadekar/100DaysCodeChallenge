@@ -21,11 +21,14 @@ namespace LoopControls
                 
                names.Add(name);
            }
+          
            if (names.Count > 3)
            {
                count = 3;
            } 
-           switch (count) {
+         
+           switch (count)
+           {
 
                case 0:
                    break;
@@ -38,7 +41,6 @@ namespace LoopControls
                case 3:
                    Console.WriteLine("{0},{1} and {2}", names[0], names[1], (names.Count) - 2);
                    break;
-
            }
         }
     }
