@@ -1,11 +1,13 @@
 using System;
 
-class StopWatch {
+class StopWatch
+{
     private static int flag = 0;
     private TimeSpan start;
     private TimeSpan stop;
     
-    public int Start{
+    public int Start                                                //Only set property.
+    {
         set
         {
             if(flag == 0)
@@ -18,7 +20,8 @@ class StopWatch {
         }
     }
     
-    public int Stop{
+    public int Stop                                                   //Only set Property.
+    {
         set
         {
             flag = 0;
@@ -26,7 +29,7 @@ class StopWatch {
         }
     }
     
-    public void Duration()
+    public void Duration()                                                          // Calculate the Duration between two Time.
     {
         TimeSpan t = this.stop - this.start;
         Console.WriteLine($"Time Duration: " + t.ToString(@"mm\:ss\:ff"));   
