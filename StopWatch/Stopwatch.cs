@@ -2,7 +2,7 @@ using System;
 
 class StopWatch
 {
-    private static int flag = 0;
+    private  int flag = 0;
     private TimeSpan start;
     private TimeSpan stop;
     
