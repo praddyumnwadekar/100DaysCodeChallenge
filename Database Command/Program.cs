@@ -13,12 +13,15 @@ namespace Database_Connection
                 sqC.Opening();
                 sqC.Closing();
 
-            //    var Orc = new OracleConnection("Oracle Connection", new TimeSpan(0, 0, 16));                // Oracle Connection.
-              //  Orc.Opening();
-                //Orc.Closing();
+                var Orc = new OracleConnection("Oracle Connection", new TimeSpan(0, 0, 8));                // Oracle Connection.
+                Orc.Opening();
+                Orc.Closing();
                 
-                DbCommand dbCommand = new DbCommand("select * from Students", sqC);
-                dbCommand.Execute();
+                DbCommand dbCommandSql = new DbCommand("select * from Students", sqC);
+                dbCommandSql.Execute();
+                
+                DbCommand dbCommandOracle = new DbCommand("select * from Students", Orc);
+                dbCommandOracle.Execute();
 
 
             }
