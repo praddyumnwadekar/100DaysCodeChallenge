@@ -6,7 +6,8 @@ namespace OppsConcept
 {
     class ShowDetails
     {                                   
-        public ShowDetails(IPerson I)               // Loosely coupled.        {
+        public ShowDetails(IPerson I)               // Loosely coupled. 
+        {
             I.Show();
         }
     }
