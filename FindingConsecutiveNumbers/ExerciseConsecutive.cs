@@ -16,7 +16,7 @@ namespace LoopControls
            foreach (var number in input.Split('-'))
                numbers.Add(Convert.ToInt32(number));
             
-          numbers.Sort();
+           numbers.Sort();                                          //for sorting the list.
 
            bool isConsecutive = true;
            for (int i = 0; i < numbers.Count; i++)
@@ -27,7 +27,6 @@ namespace LoopControls
                    break;
                }
            }
-
            Console.WriteLine(isConsecutive ? "Consecutive" : "Non Consecutive");
         }
     }
