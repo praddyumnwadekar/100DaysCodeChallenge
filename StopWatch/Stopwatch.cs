@@ -41,7 +41,6 @@ class Program
     static void Main() 
     {
         StopWatch stopWatch = new StopWatch();
-        
         Console.WriteLine("Hiii, Welcome To the StopWatch");
         Console.WriteLine("Start:");
         stopWatch.Start = 1;
