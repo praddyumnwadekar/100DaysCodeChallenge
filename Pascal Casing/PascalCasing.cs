@@ -10,9 +10,9 @@ namespace LoopControls
         {
             StringBuilder pascalString = new StringBuilder();
 
-            foreach (var item in normal.Split(' '))
+            foreach (var item in normal.Split(' '))                         // Split the setence using ' ' deliminator.
             {
-                string s = item.Substring(0,1);
+                string s = item.Substring(0,1);                             // Title Letter.
                 pascalString.Append(s.ToUpper())
                             .Append(item.Substring(1).ToLower());
             }
