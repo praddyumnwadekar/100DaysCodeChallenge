@@ -5,9 +5,9 @@ using System.Text;
 
 namespace LoopControls
 {
-    class ExerciseUserInput
+    class ExerciseUserInput                                 //Driver Class
     {
-        public static void Main()
+        public static void Main()                                       
         {
             PascalCasing ps = new PascalCasing();
             ps.ConvertStringIntoPascalCasing("NUMBER OF STUDENTS");
