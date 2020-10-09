@@ -18,7 +18,6 @@ namespace WorkFlow_Engine
 
        public  IEnumerable<IActivity> GetActivities()
         {
-            
             return _activities;
         }
     }
