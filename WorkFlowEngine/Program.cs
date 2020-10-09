@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace WorkFlow_Engine
@@ -18,7 +18,6 @@ namespace WorkFlow_Engine
 
             var engine = new WorkFlowEngine();
             engine.Run(workFlow);
-
         }
     }
 }
