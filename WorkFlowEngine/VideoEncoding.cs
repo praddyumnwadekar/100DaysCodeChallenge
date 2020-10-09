@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading;
 
-
 namespace WorkFlow_Engine
 {
     public class VideoEncoder : IActivity
