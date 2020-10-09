@@ -4,8 +4,7 @@ using System.Collections.Generic;
 namespace WorkFlow_Engine
 {
     public class WorkFlowEngine
-    {
-        
+    { 
         public void Run(IWorkFlow workFlow)
         {
             if (workFlow == null)
