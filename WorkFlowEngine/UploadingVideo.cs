@@ -2,7 +2,6 @@
 
 namespace WorkFlow_Engine
 {
-
     public class VideoUploader : IActivity
     {
         public void Execute()
