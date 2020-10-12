@@ -11,6 +11,7 @@ namespace Calculator
             string ans;
             Calculator c = new Calculator();
 
+            Console.WriteLine("*****Simple Calculator*****");
             Console.WriteLine("Enter Two Numbers: ");
             num1 = int.Parse(Console.ReadLine());
             num2 = int.Parse(Console.ReadLine());
