@@ -12,7 +12,6 @@ namespace DegreeConverter
             set
             {
                 celsius = value;
-
             }
         }
 
