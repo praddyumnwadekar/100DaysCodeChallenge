@@ -4,7 +4,7 @@ class PrimeNumbersAdder {
       byte flag = 0;
       int sum = 0;
       
-      Console.WriteLine("Enter The Number: ");
+      Console.WriteLine("Enter The Number (until you want to add the primenumber): ");
       int input = Convert.ToInt32(Console.ReadLine());
       
       for(int i = 2;i <= input;i++)
