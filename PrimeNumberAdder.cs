@@ -18,17 +18,9 @@ class PrimeNumbersAdder {
                   break;
               }
           }
-          if(flag == 1 || input == 1)
-          {
-              //Console.WriteLine("Not a Prime Number");
-          }
-          else
-          {
-              Console.WriteLine(i);
+         if(flag == 0 && input != 1)
               sum += i;
-          }
       }
       Console.WriteLine(sum);
-      
   }
 }
